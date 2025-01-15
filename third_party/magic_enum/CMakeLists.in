@@ -1,0 +1,10 @@
+# magic_enum
+#  Reflection for enumerations, pretty cool!
+#  Note the limitations: https://github.com/Neargye/magic_enum/blob/master/doc/limitations.md
+set(CMAKE_FOLDER "${BASE_FOLDER}/magic_enum")
+CPMAddPackage(
+  NAME magic_enum
+  URL      https://github.com/Neargye/magic_enum/archive/refs/tags/v0.9.5.tar.gz
+  URL_HASH SHA256=44ad80db5a72f5047e01d90e18315751d9ac90c0ab42cbea7a6f9ec66a4cd679
+  SYSTEM   True
+)
